@@ -213,3 +213,52 @@ form input, textarea {
     top: 0;
     }
 }
+
+@media (max-width: 768px) {
+
+    div.navwrapper{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    section.block {
+        width: 500px;
+        position: absolute;
+        left: 15px;
+        height: 1000px;
+        margin-bottom: 100px;
+    }
+
+    section.blockp {
+        width: 500px;
+        position: absolute;
+        left: 15px;
+        height: 900px;
+        margin-bottom: 100px;
+    }
+
+    section.blockc {
+        width: 500px;
+        position: absolute;
+        left: 15px;
+        height: 550px;
+        margin-bottom: 100px;
+    }
+
+    .portfolioL {
+        margin-left: 0px;
+    }
+
+    .portfolioR {
+        margin-right: 0px;
+    }
+
+    nav.directory {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    }
+
+    button {
+        width: 56.8px;
+    }
+}
