@@ -128,7 +128,7 @@ section.blockc {
 }
 
 .PP1B {
-    width: 100%;
+    width: 200px;
     background-color: #4aaaa5;
     text-align: center;
     position: relative;
@@ -256,6 +256,73 @@ form input, textarea {
     position: absolute;
     right: 25px;
     top: 0;
+    }
+
+    button {
+        width: 56.8px;
+    }
+}
+
+@media (max-width: 640px) {
+
+    header h1 {
+        width: 100%;
+        position: static;
+        left: 50px;
+        padding-left: 10%;
+    }
+
+   header nav.directory {
+        float: none;
+        position: static;
+        margin-left: 100px;
+        padding: 20px;
+        
+    }
+
+    section.block {
+        width: 575px;
+        position: absolute;
+        left: 15px;
+        height: 1200px;
+        margin-bottom: 100px;
+    }
+
+    section.blockp {
+        width: 500px;
+        position: absolute;
+        left: 15px;
+        height: 1400px;
+        margin-bottom: 100px;
+    }
+
+    .pic {
+        float: none;
+        position: static;
+        width: 100%;
+    }
+
+    #linkedin {
+        width: 100%;
+    }
+
+    section.blockc {
+        width: 575px;
+        position: absolute;
+        left: 15px;
+        height: 550px;
+        margin-bottom: 100px;
+    }
+
+    .portfolioL {
+        float: none;
+        margin-left: 100px;
+    }
+
+    .portfolioR {
+        float: none;
+        margin-left: 100px;
+
     }
 
     button {
